@@ -9,4 +9,6 @@ Front-end em um desafio prático.
 
 O Reprograme-se  é um projeto que conta com toda experiência e competência do [Instituto Federal do Espírito Santo - IFES](https://www.ifes.edu.br/), uma instituição reconhecidamente de excelência na formação profissional, com  a participação da [Associação Capixaba de Tecnologia – ACT!ON](https://action.org.es/). 
 
+* **Desafio:** Desenvolver em dupla um novo site para o Projeto Reprograme-se, usando técnologias como HTML, CSS, Bootstrap e Javascript
+* **Equipe:** RGB - Raquel Azevedo da Silveira e Rafael Dias de Almeida
 
