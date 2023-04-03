@@ -12,3 +12,6 @@ O Reprograme-se  é um projeto que conta com toda experiência e competência do
 * **Desafio:** Desenvolver em dupla um novo site para o Projeto Reprograme-se, usando técnologias como HTML, CSS, Bootstrap e Javascript
 * **Equipe:** RGB - Raquel Azevedo da Silveira e Rafael Dias de Almeida
 
+# Curso
+* Programação básica de aplicativos Web - Front-end
+* Outubro de 2022 a Fevereiro de 2023
