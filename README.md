@@ -7,4 +7,6 @@ O objetivo do Hackathon, nesta primeira edição, foi possibilitar que os alunos
 construídos ao longo dos módulos do curso de Programação básica de aplicativos Web -
 Front-end em um desafio prático.
 
+O Reprograme-se  é um projeto que conta com toda experiência e competência do (Instituto Federal do Espírito Santo - IFES)[https://www.ifes.edu.br/], uma instituição reconhecidamente de excelência na formação profissional, com  a participação da (Associação Capixaba de Tecnologia – ACT!ON)[https://action.org.es/]. 
+
 
