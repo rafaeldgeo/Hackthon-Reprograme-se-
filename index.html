@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reprogramese</title>
+  <link rel="icon" type="image/x-icon" href="assets/img/logo-reprogramese/favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link href="/assets/css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar bg-white fixed-top navbar-expand-lg fs-5 fw-bold fst-italic" data-bs-theme="light" id="menu">
+      <div class="container">
+        <h1>
+          <a class="navbar-brand" href="index.html">
+            <img src="/assets/img/logos/preferencial-horizontal-preta.png" alt="logomarca do reprograma-se"
+              width="110px" id="logoreprogramese">
+          </a>
+        </h1>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon navbar-light" id="togglericon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav text-end m-auto">
+            <li class="nav-item dropdown mx-2">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">O CURSO</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#curso">SOBRE O CURSO</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#comoFunciona">COMO FUNCIONA</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#grade">GRADE CURRICULAR</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#realizadores">REALIZADORES</a>
+                </li>
+                <li>
+                  <a class="dropdown-item"
+                    href="https://cachoeiro.ifes.edu.br/processosseletivos/alunos/16788-edital-25-2022-processo-de-selecao-de-estudantes-para-o-curso-do-projeto-reprograme-se"
+                    target="_blank">INSCREVA-SE</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item mx-2 ">
+              <a class="nav-link" href="#depoimentos">DEPOIMENTOS</a>
+            </li>
+
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#noticias">NOTÍCIAS</a>
+            </li>
+
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#calendario">CALENDÁRIO</a>
+            </li>
+
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#faq">FAQ</a>
+            </li>
+
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#contato">CONTATO</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <img src="/assets/img/logos/contraste_preto.svg" alt="Definir contraste e tamanho da fonte do menu" id="iconeconfig">
+              </a>
+              <ul class="dropdown-menu" id="configcontrast">
+                <li class="text-center">
+                  <button type="button" class="btn btn-outline-dark" id="btn_color">Dark</button>
+                </li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li>
+                  <select class="form-select bg-white" aria-label="Selecione o tamanho da fonte" id="input-select">
+                    <option value="0">Padrão</option>
+                    <option value="1">Pequena</option>
+                    <option value="2">Grande</option>
+                  </select>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Div do Banner - Início -->
+    <div role="banner" class="banner-inicio">
+      <picture>
+        <source media="(max-width:769px)" srcset="/assets/img/mockups/homem-camisa.png" type="image/png">
+        <source media="(max-width:991px)" srcset="/assets/img/fotos/alunos_sentados.png" type="image/png">
+        <source media="(max-width:1330px)" srcset="/assets/img/fotos/todos_alunos.png" type="image/png">
+        <img src="/assets/img/fotos/todos_alunos.png" class="img-fluid" alt="...">
+      </picture>
+    </div>
+
+    <main>
+      <!-- CAIXAS INCLINADAS -->
+      <div class="row d-flex justify-content-center box-inclinada">
+        <div class="col-3 box-banner" id="box-1">
+          <p>Torne-se um profissional de TI e faça parte do mercado que mais emprega no mundo!
+          <p>
+        </div>
+        <div class="col-3 box-banner" id="box-2">
+          <p>O maior e mais bem estruturado programa de formação de programadores de software do estado.</p>
+        </div>
+        <div class="col-3 box-banner" id="box-3">
+          <p>Metodologia preparada para a capacitação em curto espaço de tempo, por profissionais experientes em EAD.
+          </p>
+        </div>
+      </div>
+
+      <!-- O CURSO -->
+      <section id="curso">
+        <h2 class="titulo">O CURSO</h2>
+        <p class="p-texto">Capacitação totalmente gratuita em <strong>programação e desenvolvimento de websites</strong>
+          voltado para jovens e adultos que já passaram pelo ensino médio, ou estejam cursando o último ano do ensino
+          médio,
+          que queiram mudar de área em busca de melhores oportunidades.</p>
+      </section>
+
+      <!-- BARRA POLOS -->
+      <span id="polos" aria-label="Espaço de apoio para estudos">SÃO 16 POLOS ESPALHADOS PELO ESTADO DO ESPÍRITO
+        SANTO</span>
+
+
+      <!-- COMO FUNCIONA CARDS -->
+      <section id="comoFunciona">
+        <h2 class="titulo">COMO FUNCIONA</h2>
+        <div class="container text-center">
+          <div class="row row-cols-1  row-cols-md-2 row-cols-lg-4 g-3">
+            <div class="col">
+              <div class="card text-bg-light h-100">
+                <h4 class="card-header fs-3 fw-bold">Modalidade</h4>
+                <div class="card-body fs-3 d-flex justify-content-center align-items-center">
+                  <span>À distância com apoio presencial</span>
+                </div>
+              </div>
+
+            </div>
+            <div class="col">
+              <div class="card text-bg-light h-100">
+                <h4 class="card-header fs-3 fw-bold">2 Formações</h4>
+                <div
+                  class="card-body fs-3 d-flex flex-column align-items-center d-flex justify-content-center align-items-center">
+                  <span>Front-end</span>
+                  <span>Back-end</span>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card text-bg-light h-100">
+                <h4 class="card-header fs-3 fw-bold">Duração</h4>
+                <div class="card-body fs-3 d-flex justify-content-center align-items-center">
+                  <span>8 meses</span>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card text-bg-light h-100">
+                <h4 class="card-header fs-3 fw-bold">Carga horária</h4>
+                <div class="card-body fs-3 d-flex justify-content-center align-items-center">
+                  <span>320 horas</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="grade">
+        <h2 class="titulo">O QUE VOCÊ IRÁ APRENDER</h2>
+        <h3 class="subtitulo">Front-end</h3>
+        <hr>
+        <div id="front-end">
+          <!-- INJETADOR POR JS -->
+        </div>
+
+        <h3 class="subtitulo">Back-end</h3>
+        <hr>
+        <div id="back-end">
+          <!-- INJETADOR POR JS -->
+        </div>
+      </section>
+
+      <!-- IMAGEM INSCREVA-SE -->
+
+      <section>
+        <div class="bg-inscricao">
+          <p>Um mundo de oportunidades nas empresas de tecnologia do Espírito Santo, que oferecem uma grande
+            demanda por profissionais com competências em desenvolvimento de software.
+          </p>
+          <a class="btn-inscricao" href="https://cachoeiro.ifes.edu.br/processosseletivos/alunos/16788-edital-25-2022
+            -processo-de-selecao-de-estudantes-para-o-curso-do-projeto-reprograme-se" target="_blank">INSCREVA-SE</a>
+        </div>
+
+        <!-- REALIZADORES -->
+        <section id="realizadores">
+          <h2 class="titulo">REALIZADORES</h2>
+          <div class="container">
+            <div class="row d-flex justify-content-center align-items-center">
+              <div class="col-12 col-sm-12 col-md-4 d-flex justify-content-center align-items-center">
+                <a href="https://action.org.es/" target="_blank">
+                  <img src="assets/img/logos/logo-action-cores.svg" alt="Logomarca da Action" width="220" height="220">
+                </a>
+              </div>
+              <div class="col-12 col-sm-12 col-md-8">
+                <p class="p-realizadores">Atua em prol do desenvolvimento do setor de tecnologia da informação do
+                  Estado.
+                  Com objetivo de promover o ecossistema inovador, conectar e fortalecer as empresas associadas,
+                  viabilizar negócios e
+                  oferecer soluções eficazes e disruptivas para o desenvolvimento das empresas de tecnologia da
+                  informação
+                  do Espírito Santo.
+                </p>
+              </div>
+            </div>
+            <div class="row d-flex justify-content-center align-items-center">
+              <div class="col-12 col-sm-12 col-md-4 d-flex justify-content-center align-items-center">
+                <a href="https://www.ifes.edu.br/" target="_blank">
+                  <img src="assets/img/logos/logo-ifes-cor.svg" alt="Logomarca do IFES" width="220" height="220">
+                </a>
+              </div>
+              <div class="col-12 col-sm-12 col-md-8">
+                <p class="p-realizadores">Desde a criação da Escola de Aprendizes Artífices do Espírito Santo, em 1909,
+                  até a transformação em Instituto Federal do Espírito Santo, a instituição é referência em educação na
+                  sociedade capixaba. Ifes
+                  promove educação profissional pública de excelência, integrando ensino, pesquisa e extensão, para a
+                  construção de uma
+                  sociedade democrática, justa e sustentável.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- DEPOIMENTOS -->
+        <section id="depoimentos">
+          <h2 class="titulo">DEPOIMENTOS</h2>
+          <p class="p-texto">O que os nossos alunos dizem sobre nós?</p>
+          <div class="bg-depoimento">
+            <div class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active text-center">
+                  <p class="fs-4">"Sou muita grata ao reprograme-se, hoje trabalho em uma grande empresa nos EUA.
+                    - Ana Julia"</p>
+                </div>
+                <div class="carousel-item text-center">
+                  <p class="fs-4">"Agradeço a iniciativa do IFES e da Action! A caminho de ser uma profissional da
+                    área! – Raquel A.Silveira"</p>
+                </div>
+                <div class="carousel-item text-center">
+                  <p class="fs-4">"Força na peruca e Faca na caveira... o desafio é grande, mas o curso é bom!!
+                    - Desconhecido"</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+        <!-- NOTÍCIAS -->
+        <section id="noticias">
+          <h2 class="titulo">NOTÍCIAS</h2>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <div class="card mb-3">
+                  <div class="col">
+                    <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg"
+                      class="img-fluid rounded-start" alt="Monitor com código fonte">
+                    <figcaption class="figcaption text-start">Publicado em 05/03/2023 às 17h00min</figcaption>
+                  </div>
+                  <div class="col">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">C++ ultrapassa Java em ranking de programação; veja lista</h5>
+                      <p class="card-text">Todo ano, o índice TIOBE da Comunidade de Programação decide quem leva o
+                        prêmio de linguagem do ano. Em 2022, a
+                        principal novidade é o C++ figurando entre as mais populares, junto...</p>
+
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingSix">
+                          <button class="collapsed btn-noticia" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseSix" aria-expanded="false"
+                            aria-controls="flush-collapseSix"><i class="bi bi-plus fs-5">Leia mais...</i></button>
+                        </h2>
+                        <div class="accordion" id="accordionExample">
+                          <div id="flush-collapseSix" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingSis" data-bs-parent="#accordionFlushSix">
+                            <div class="accordion-body">Todo ano, o índice TIOBE da Comunidade de
+                              Programação decide quem leva o prêmio de linguagem do ano. Em 2022, a
+                              principal novidade é o C++ figurando entre as mais populares, junto ao Python e
+                              o C. É a primeira vez em que ele ultrapassa o Java na história do índice, que começou em
+                              2001.
+                              Python e C já são figurinhas carimbadas no prêmio, tendo levado diversas vezes.
+                              O C++ só alcançou o feito há quase 20 anos, em 2003. Com a ascensão desta linguagem,
+                              é a primeira vez em que Java não está no pódio. Apesar disso, esta última também cresceu
+                              em 2022.
+                              <a href="https://www.tecmundo.com.br/software/256955-c-ultrapassa-java-primeira-vez-popularidade-veja-ranking.htm"
+                                target="_blank">Veja
+                                mais</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6 col-md-12">
+                <div class="card mb-3">
+                  <div class="col">
+                    <img
+                      src="https://cdn.pixabay.com/photo/2018/05/08/08/44/artificial-intelligence-3382507_960_720.jpg"
+                      class="img-fluid rounded-start" alt="Imagem tecnologia">
+                    <figcaption class="figcaption text-start">Publicado em 05/03/2023 às 17h00min</figcaption>
+                  </div>
+                  <div class="col">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">C++ ultrapassa Java em ranking de programação; veja lista</h5>
+                      <p class="card-text">Todo ano, o índice TIOBE da Comunidade de Programação decide quem leva o
+                        prêmio de linguagem do ano. Em 2022, a principal novidade é o C++ figurando entre as mais
+                        populares, junto...
+                      </p>
+
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFive">
+                          <button class="collapsed btn-noticia" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFive" aria-expanded="false"
+                            aria-controls="flush-collapseFive"><i class="bi bi-plus fs-5">Leia mais...</i>
+                          </button>
+                        </h2>
+                        <div class="accordion" id="accordionExample">
+                          <div id="flush-collapseFive" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushFive">
+                            <div class="accordion-body">Todo ano, o índice TIOBE da Comunidade de
+                              Programação decide quem leva o prêmio de linguagem do ano. Em 2022, a
+                              principal novidade é o C++ figurando entre as mais populares, junto ao
+                              Python e o C. É a primeira vez em que ele
+                              ultrapassa o Java na história do índice, que começou em 2001.
+                              Python e C já são figurinhas carimbadas no prêmio, tendo levado diversas
+                              vezes. O C++ só alcançou o feito há quase 20 anos, em 2003. Com a ascensão
+                              desta linguagem, é a primeira vez em que Java não está no pódio. Apesar disso, esta última
+                              também cresceu em 2022.
+                              <a href="https://www.tecmundo.com.br/software/256955-c-ultrapassa-java-primeira-vez-popularidade-veja-ranking.htm"
+                                target="_blank">Veja
+                                mais</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </section>
+
+        <!-- CALENDÁRIO -->
+        <section id="calendario">
+          <h2 class="titulo">CALENDÁRIO DE EVENTOS</h2>
+          <table class="table table-hover table-striped table-bordered align-middle text-center">
+            <thead class="fs-4">
+              <tr>
+                <th>Mês</th>
+                <th>Dia</th>
+                <th>Evento</th>
+              </tr>
+            </thead>
+            <tbody class="table-group-divider fs-4">
+              <tr>
+                <td rowspan="2">Janeiro</td>
+                <td><button class="list-group-item list-group-item-action position-relative">
+                    <span class="badge text-bg-primary rounded-pill me-2">02</span>
+                  </button></td>
+                <td>Início das Inscrições Online</td>
+              </tr>
+              <tr>
+
+                <td><button class="list-group-item list-group-item-action position-relative">
+                    <span class="badge bg-danger text-bg-danger rounded-pill me-2">31</span>
+                  </button></td>
+                <td>Fim das Inscrições</td>
+              </tr>
+              <tr>
+                <td rowspan="2">Fevereiro</td>
+                <td><button class="list-group-item list-group-item-action position-relative">
+                    <span class="badge text-bg-primary rounded-pill me-2">15</span>
+                  </button></td>
+                <td>Onboarding da primeira turma</td>
+              </tr>
+
+              <tr>
+
+                <td><button class="list-group-item list-group-item-action position-relative">
+                    <span class="badge text-bg-primary rounded-pill me-2">20</span>
+                  </button></td>
+                <td>Início do Módulo I</td>
+              </tr>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <!-- FAQ -->
+        <section id="faq">
+          <h2 class="titulo">PERGUNTAS FREQUENTES</h2>
+          <div class="container">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed fs-4 fw-bold" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne"> 1-Tenho
+                    que
+                    pagar inscrição?
+                  </button>
+                </h3>
+                <div id="flush-collapseOne" class="accordion-collapse collapse fs-5" aria-labelledby="flush-headingOne"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Não, o curso é totalmente gratuito.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed fs-4 fw-bold" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">2- Terei
+                    atendimentos se tiver dúvidas?
+                  </button>
+                </h3>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse fs-5" aria-labelledby="flush-headingTwo"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Sim. Você contará com o apoio de um professor mediador que possui formação
+                    na área do reprograme-se e um Monitor que é estudante de curso de informática.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed fs-4 fw-bold" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">3-
+                    Sou morador de outro Estado é possível fazer o curso totalmente online?
+                  </button>
+                </h3>
+                <div id="flush-collapseThree" class="accordion-collapse collapse fs-5"
+                  aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Não! A proposta pedagógica do curso não permite que o curso seja
+                    totalmente online devido a complexidade do conteúdo “programação web”, dessa forma haverá
+                    necessidade de encontros presenciais
+                    para orientação e realização das atividades práticas. Assim você deverá ser morador do Estado do
+                    Espírito Santo.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CONTATO -->
+        <section id="contato">
+          <h2 class="titulo">CONTATO</h2>
+
+          <div class="col-12 mx-auto">
+            <form id="formulario" action="mailto:contato@reprograme-se.org.br" method="post" class="p-3 text-center">
+
+              <div class="row mb-3 g-2">
+
+                <!--Nome Completo-->
+                <div class="col-12">
+                  <div class="input-group input-group-lg">
+                    <label for="nome" class="input-group-text"><i class="bi bi-person text-primary fs-1"></i></label>
+                    <input type="text" class="form-control" id="nome" placeholder="Nome Completo" required>
+                  </div>
+                </div>
+
+                <!--Telefone-->
+                <div class="col-lg-6 col-md-12">
+                  <div class="input-group input-group-lg">
+
+                    <label for="telefone" class="input-group-text">
+                      <i class="bi bi-phone-vibrate text-primary fs-1"></i></i></label>
+                    <input type="tel" class="form-control" id="tel" pattern="[0-9]{2}[0-9]{5}-[0-9]{4}"
+                      placeholder="ddxxxxx-xxxx">
+                  </div>
+                </div>
+
+                <!--Assunto-->
+                <div class="col-lg-6 col-md-12">
+                  <div class="input-group input-group-lg">
+                    <label for="assunto" class="input-group-text"><i
+                        class="bi bi-card-checklist text-primary fs-1"></i></label>
+                    <select id="assunto" class="form-select" height="50px">
+                      <option>Selecione o assunto...</option>
+                      <option>Elogio</option>
+                      <option>Reclamação</option>
+                      <option>Sugestão</option>
+                      <option>Outros</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <div class="input-group input-group-lg">
+                    <label for="msg" class="input-group-text"><i class="bi bi-mailbox text-primary fs-1"></i></label>
+                    <textarea id="msg" class="form-control" placeholder="Escreva aqui sua mensagem..."></textarea>
+                  </div>
+                </div>
+              </div>
+              <button class="btn-formulario text-align-center"><i class="bi bi-send-check"></i> Enviar</button>
+            </form>
+          </div>
+
+        </section>
+
+
+    </main>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="row bg-footer">
+        <div class="col col-sm col-md-5 col-lg-2 d-flex justify-content-center align-items-center">
+          <img src="/assets/img/logos/logo-reprogramese-branca-vertical.png" alt="Logomarca Reprograme-se" width="200"
+            height="243">
+        </div>
+        <div
+          class="col col-sm col-md-5 col-lg-6 d-flex flex-column justify-content-center align-items-center text-center">
+          <p class="p-footer">CHEGOU A HORA DE REPROGRAMAR O SEU FUTURO!</p>
+          <a class="btn-footer" href="https://cachoeiro.ifes.edu.br/processosseletivos/alunos/16788-edital-25-2022
+            -processo-de-selecao-de-estudantes-para-o-curso-do-projeto-reprograme-se" target="_blank">INSCREVA-SE</a>
+        </div>
+        <div class="col col-sm col-md col-lg-4 d-flex justify-content-center align-items-center pt-2">
+          <img src="/assets/img/fotos/aluna.png" alt="Aluna do Reprograme-se" width="272" height="298">
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/menu.js"></script>
+</body>
+
+</html>
