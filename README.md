@@ -14,7 +14,7 @@ O Reprograme-se  é um projeto que conta com toda experiência e competência do
 
 Desenvolver em dupla um novo site para o Projeto Reprograme-se, usando técnologias como HTML, CSS, Bootstrap e Javascript
 
-**Requisitos**
+### Requisitos
 
 1. O site deve ter um design e layout intuitivos que permitam aos usuários navegar facilmente;
 2. O site deve ser responsivo e compatível com os principais navegadores e resoluções de tela;
