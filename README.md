@@ -24,7 +24,7 @@ Desenvolver em dupla um novo site para o Projeto Reprograme-se, usando técnolog
 6. O site deve ter uma área de calendário e eventos, evidenciando as datas importantes;
 7. O site deve ter uma área de depoimentos de alunos do Reprograme-se. Cada depoimento deverá conter alguma identificação do aluno e seu relato;
 8. O site deve ter uma área de dúvidas frequentes (FAQ).
-9. O site deve ter um formulário de contato em que o usuário poderá enviar dúvidas, sugestões, reclamações ou outros assuntos. As mensagens devem ser enviadas para o e-mail contato@reprograme-se.org.br utilizando o recurso mailto;
+9. O site deve ter um formulário de contato em que o usuário poderá enviar dúvidas, sugestões, reclamações ou outros assuntos. As mensagens devem ser enviadas para o e-mail utilizando o recurso mailto;
 10. O site deve ter uma área em destaque para novos alunos se inscreverem no curso/
 11. O site deve ter uma área em que sejam disponibilizadas informações sobre o curso, evidenciando a grade currícular;
 12. O site deve ter uma área em que sejam destacadas informações sobre o Ifes e a Action, instituições responsáveis pela realização do programa;
