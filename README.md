@@ -41,3 +41,8 @@ Desenvolver em dupla um novo site para o Projeto Reprograme-se, usando técnolog
 * **Equipe:** RGB - Raquel Azevedo da Silveira e Rafael Dias de Almeida
 * **[Mockup do Layout desenvolvido no Figma](https://www.figma.com/file/R8hQB55UoeE3Iu1kAjKL3v/reprograme-se?node-id=0%3A1&t=KwV3cIG8ujinCgIU-1)** 	:link:
 * **[Ver o projeto entregue](https://reprogramese.rafaeldalmeida.repl.co/)** :link:
+
+## Resultado final
+
+* Total de projetos submetidos: 48
+* Posição final: 9
