@@ -8,7 +8,7 @@ Front-end em um desafio prático.
 
 O Reprograme-se  é um projeto que conta com toda experiência e competência do [Instituto Federal do Espírito Santo - IFES](https://www.ifes.edu.br/), uma instituição reconhecidamente de excelência na formação profissional, com  a participação da [Associação Capixaba de Tecnologia – ACT!ON](https://action.org.es/). 
 
-**Curso Programação básica de aplicativos Web - Front-end realizado em Outubro de 2022 a Fevereiro de 2023**
+**Curso Programação básica de aplicativos Web - Front-end realizado em Setembro de 2022 a Fevereiro de 2023**
 
 ## Desafio
 
