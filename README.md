@@ -45,4 +45,4 @@ Desenvolver em dupla um novo site para o Projeto Reprograme-se, usando técnolog
 ## Resultado final
 
 * Total de projetos submetidos: 48
-* Posição final: 9
+* Posição final: 9º
