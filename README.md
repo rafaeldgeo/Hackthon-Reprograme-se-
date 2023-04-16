@@ -12,7 +12,7 @@ O Reprograme-se  é um projeto que conta com toda experiência e competência do
 
 ## Desafio
 
-Desenvolver em dupla um novo site para o Projeto Reprograme-se, usando técnologias como HTML, CSS, Bootstrap e Javascript
+Desenvolver em dupla um novo site para o Projeto Reprograme-se, usando tecnologias como HTML, CSS, Bootstrap e Javascript
 
 ### Requisitos
 
