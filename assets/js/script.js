@@ -19,7 +19,7 @@
       imagem: "js.svg",
       alt: "logomarca Javascript",
       numero: "MÓDULO III",
-      desc: "Programação estrutura com JavaScrip."
+      desc: "Programação estrutura com JavaScript."
     },
     {
       imagem: "web.svg",
@@ -64,7 +64,7 @@
       div_linha_modulo.className = "row mb-2";
       div_linha_modulo.innerHTML += `
                                         <div class="col col-lg-4 d-flex justify-content-center align-items-center">
-                                          <img class="m-2" src="assets/img/logos/${modulo.imagem}" alt="${modulo.alt}" width="196" height="143">
+                                          <img class="m-2" src="/assets/img/logos/${modulo.imagem}" alt="${modulo.alt}" width="196" height="143">
                                         </div>
                                         <div class="col col-lg-8 d-flex flex-column justify-content-center align-items-center 
                                         align-items-sm-center align-items-md-start align-items-lg-start">
