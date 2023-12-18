@@ -40,7 +40,7 @@ Desenvolver em dupla um novo site para o Projeto Reprograme-se, usando tecnologi
 * **Projeto desenvolvido em HTML5, CSS3, Bootstrap 5 e Javascript**
 * **Equipe:** RGB - Raquel Azevedo da Silveira e Rafael Dias de Almeida
 * **[Mockup do Layout desenvolvido no Figma](https://www.figma.com/file/R8hQB55UoeE3Iu1kAjKL3v/reprograme-se?node-id=0%3A1&t=KwV3cIG8ujinCgIU-1)** 	:link:
-* **[Ver o projeto submetido](https://reprogramese.rafaeldalmeida.repl.co/)** :link:
+* **[Ver o projeto submetido](https://rafaeldgeo.github.io/hackathon-reprograme-se/index.html)** :link:
 
 ## Resultado final
 
