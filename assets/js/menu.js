@@ -9,8 +9,8 @@ const LOGO_REPROGRAMESE = document.getElementById("logoreprogramese");
 
 const OPCAO_CONTRASTE = [
   {
-    iconeconfig: "/assets/img/logos/contraste_preto.svg",
-    logoreprogramese: "/assets/img/logos/preferencial-horizontal-preta.png",
+    iconeconfig: "./assets/img/logos/contraste_preto.svg",
+    logoreprogramese: "./assets/img/logos/preferencial-horizontal-preta.png",
     bg_menu: "bg-white",
     theme_menu: "light",
     btn_color: "btn-outline-dark",
@@ -19,8 +19,8 @@ const OPCAO_CONTRASTE = [
     togglericon: "navbar-light"
   },
   {
-    iconeconfig: "/assets/img/logos/contraste_branco.svg",
-    logoreprogramese: "/assets/img/logos/preferencial-horizontal-branca.png",
+    iconeconfig: "./assets/img/logos/contraste_branco.svg",
+    logoreprogramese: "./assets/img/logos/preferencial-horizontal-branca.png",
     bg_menu: "bg-dark",
     theme_menu: "dark",
     btn_color: "btn-outline-light",
